@@ -1,18 +1,7 @@
-# IndabaX 2022 - Reinforcement Learning Tutorial
-
-
-
-
-
-
-
-
-
-
 # Comparing Q-Learning and Sarsa for Mini-Grid Agent Training
 
-This project utilises the Gym-Minigrid environment to train and test agents using the Q-Learning and Sarsa algorithms. The training script is setup to allow for doing a grid-search across the alpha and gamma hyper-parameters.
-
+This project utilises the Gym-Minigrid environment to train and test agents using the Q-Learning and Sarsa algorithms. The training script is setup to allow for doing a grid-search across the alpha and gamma hyper-parameters. 
+For a deeper understanding of the problem statement, approach and results - refer to accompanying report pdf at `report/MLAI_RL_Gridworld_Report.pdf`.
 ## Directory Structure
 
 ```
@@ -72,7 +61,6 @@ Note: Results from prediction are written to logs and will appear in the console
 - The config file has a parameter `render: False` by default. If you would like to see the render of the environment and the agent's movements, set this to `True`. NOTE: This will considerably increase the execution time for script.  
 - To view the comparison of all trained agents' results - you can look at the `data/grid-search-results/comparison.xlsx`
 
-
 ## References
 1. R. S. Sutton and A. G. Barto, Reinforcement Learning: An
    Introduction, 2nd ed. The MIT Press, 2018. [Online]. Available:
@@ -80,4 +68,3 @@ Note: Results from prediction are written to logs and will appear in the console
 2. M. Chevalier-Boisvert, L. Willems, and S. Pal, “Minimalistic grid-
    world environment for openai gym,” https://github.com/maximecb/gym-
    minigrid, 2018.
-3. D. Silver, Introduction to Reinforcement Learning, DeepMind, 2015. [Course website](https://www.deepmind.com/learning-resources/introduction-to-reinforcement-learning-with-david-silver)
